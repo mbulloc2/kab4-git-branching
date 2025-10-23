@@ -1,28 +1,28 @@
 def intro():
-    print("You wake up in a dark forest. Somewhere, a faint beacon shines.")
+    print("You wake up in a dark forest. A cold wind whispers your name.")
     choice = input("Which direction do you choose? (left/right): ").strip().lower()
     if choice == "left":
         left_path()
     elif choice == "right":
         right_path()
     else:
-        print("You pause to listen—your courage points the way, but you must choose next time.")
+        print("You hesitate. The shadows close in and claim you as their own.")
 
 def left_path():
-    print("You walk left and find a glowing sword in a stone.")
-    take = input("Do you try to pull the sword free? (yes/no): ").strip().lower()
+    print("You walk left and find a sword pulsing with dark light.")
+    take = input("Do you pull the sword from the stone? (yes/no): ").strip().lower()
     if take == "yes":
-        print("With a steady heart, you lift it. The light answers your courage. You vow to protect the forest.")
+        print("The blade bonds to your will. Power floods you. The forest bows to its new ruler.")
     else:
-        print("You leave the sword—true heroes know when not to force destiny.")
+        print("You step back, but the sword’s whisper follows you... You won’t resist forever.")
 
 def right_path():
-    print("You walk right and meet a talking squirrel guarding a tiny banner.")
-    help_squirrel = input("The squirrel asks for help defending the grove. Help them? (yes/no): ").strip().lower()
-    if help_squirrel == "yes":
-        print("Together you outsmart the threat. The forest cheers your name.")
+    print("You walk right and meet a talking squirrel in ragged armor.")
+    duel = input("The squirrel challenges you. Do you fight fair? (yes/no): ").strip().lower()
+    if duel == "yes":
+        print("You fight with honor—but honor is weak. You lose. Darkness laughs.")
     else:
-        print("You decline politely and share supplies. Kindness still changes the day.")
-        
+        print("You feint, then strike from the shadows. The squirrel kneels. The woodland falls in line.")
+
 if __name__ == "__main__":
     intro()
