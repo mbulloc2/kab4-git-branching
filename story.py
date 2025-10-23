@@ -1,8 +1,10 @@
 def intro():
     print("You wake up in a dark forest. Somewhere, a faint beacon shines.")
-    choice = input("Which direction do you choose? (left/right): ").strip().lower()
+    choice = input("Which direction do you choose? (left/center/right): ").strip().lower()
     if choice == "left":
         left_path()
+    elif choice == "center":
+        center_path()
     elif choice == "right":
         right_path()
     else:
@@ -16,6 +18,14 @@ def left_path():
     else:
         print("You leave the sword—true heroes know when not to force destiny.")
 
+def center_path():
+    print("You follow the beacon to a clearing. A wounded traveler asks for help.")
+    help_traveler = input("Do you share your supplies? (yes/no): ").strip().lower()
+    if help_traveler == "yes":
+        print("Your kindness restores their strength; they bless your journey.")
+    else:
+        print("You conserve resources, but promise to return—duty calls you onward.")
+
 def right_path():
     print("You walk right and meet a talking squirrel guarding a tiny banner.")
     help_squirrel = input("The squirrel asks for help defending the grove. Help them? (yes/no): ").strip().lower()
@@ -23,6 +33,6 @@ def right_path():
         print("Together you outsmart the threat. The forest cheers your name.")
     else:
         print("You decline politely and share supplies. Kindness still changes the day.")
-        
+
 if __name__ == "__main__":
     intro()
