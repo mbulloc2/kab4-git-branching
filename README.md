@@ -15,7 +15,7 @@ You will:
 ## Branch Summaries
 
 - `main`: Original story starter
-- `hero-path`: _[Describe your changes here]_
+- `hero-path`: Radiant sword; cooperative choice with the squirrel to defend the forest
 - `villain-path`: _[Describe your changes here]_
 
 ## Final Checklist
