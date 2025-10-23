@@ -15,8 +15,8 @@ You will:
 ## Branch Summaries
 
 - `main`: Original story starter
-- `hero-path`: _[Describe your changes here]_
-- `villain-path`: _[Describe your changes here]_
+- `hero-path`: Radiant sword; cooperative choices with traveler/squirrel to defend the forest
+- `villain-path`: Corrupt sword; deceitful duel leading to ruling the forest
 
 ## Final Checklist
 
