@@ -1,17 +1,19 @@
 Branches in this repo (with details):
 
 - hero-path
-  SHA: 8d7f3928847f02b4561b5b20f06085596d247b92
-  Commits: 4
+  SHA: bcc44d4ed411c254e1ad2eb32e2326ebfffcbc8c
+  Commits: 6
   Recent commits:
+    bcc44d4 | Author: Marshall Bullock <236923363+mbulloc2@users.noreply.github.com> | Committer: Marshall Bullock <236923363+mbulloc2@users.noreply.github.com> | Date: 2025-10-23T15:12:31Z | Fix: restore hero-path bright storyline
+    1cd1bb1 | Author: Marshall Bullock <236923363+mbulloc2@users.noreply.github.com> | Committer: Marshall Bullock <236923363+mbulloc2@users.noreply.github.com> | Date: 2025-10-23T15:04:39Z | Villain path: dark sword and shadow duel storyline
     8d7f392 | Author: Marshall Bullock <236923363+mbulloc2@users.noreply.github.com> | Committer: Marshall Bullock <236923363+mbulloc2@users.noreply.github.com> | Date: 2025-10-23T14:57:27Z | Add hero-path summary in README
     4854ff7 | Author: Marshall Bullock <236923363+mbulloc2@users.noreply.github.com> | Committer: Marshall Bullock <236923363+mbulloc2@users.noreply.github.com> | Date: 2025-10-23T14:55:38Z | Hero path: radiant sword + team-up with the squirrel
     d164e59 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-23T14:28:06Z | Auto-update branch-info.txt
-    5add8c0 | Author: Marshall Bullock <236923363+mbulloc2@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-10-23T10:27:45-04:00 | Initial commit
 - main
-  SHA: 89e13f28541266625287c8b139169dfc54b25941
-  Commits: 4
+  SHA: ce92e74069d2b1cb1874d96689298b275d511dbe
+  Commits: 5
   Recent commits:
+    ce92e74 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-23T15:10:45Z | Auto-update branch-info.txt
     89e13f2 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-23T15:05:50Z | Auto-update branch-info.txt
     0ffd17f | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-23T14:57:51Z | Auto-update branch-info.txt
     d164e59 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-10-23T14:28:06Z | Auto-update branch-info.txt
